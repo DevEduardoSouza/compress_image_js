@@ -2,6 +2,7 @@
   "name": "compress_image_js",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node src/app.js"
@@ -9,5 +10,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "sharp": "^0.34.2"
+  }
 }
